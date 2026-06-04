@@ -16,7 +16,7 @@ public class Carrello {
     public void calcoloCarrello() {
         double totale = 0;
         for (Articolo articolo : Carrelloarticoli) {
-            totale += articolo.prezzo();
+            totale += articolo.getPrezzo();
         }
         DecimalFormat df = new DecimalFormat("#.##");
         System.out.println("Il totale del carrello è:" + df.format(totale));
