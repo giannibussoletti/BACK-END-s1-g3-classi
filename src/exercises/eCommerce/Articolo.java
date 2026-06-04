@@ -6,11 +6,10 @@ public class Articolo {
     private double prezzo;
     private int pezziDisp;
 
-    public Articolo(String codiceArticolo, String descArticolo, double prezzo, int pezziDisp) {
+    public Articolo(String codiceArticolo, String descArticolo, double prezzo) {
         this.codiceArticolo = codiceArticolo;
         this.descArticolo = descArticolo;
         this.prezzo = prezzo;
-        this.pezziDisp = pezziDisp;
 
 
     }
@@ -23,5 +22,9 @@ public class Articolo {
                 ", prezzo=" + prezzo +
                 ", pezziDisp=" + pezziDisp +
                 '}';
+    }
+
+    public double getPrezzo() {
+        return prezzo;
     }
 }

@@ -7,11 +7,19 @@ public class Carrello {
     private Articolo[] Carrelloarticoli;
     private double totaleArticolo;
 
-    public Carrello(Cliente cliente, Articolo[] Carrelloarticoli, double totaleArticolo) {
+    public Carrello(Cliente cliente, Articolo[] Carrelloarticoli) {
         this.cliente = cliente;
         this.Carrelloarticoli = Carrelloarticoli;
-        this.totaleArticolo = totaleArticolo;
     }
+
+    public double calcoloCarrello() {
+        double totale = 0;
+        for (Articolo articolo : Carrelloarticoli) {
+            totale += articolo.prezzo();
+        }
+        return totale;
+    }
+
 
     @Override
     public String toString() {
