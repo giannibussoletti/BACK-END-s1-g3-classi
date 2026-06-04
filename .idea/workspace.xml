@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="68c95002-b3fb-4cf8-9555-7a40a13b4706" name="Changes" comment="" />
+    <list default="true" id="68c95002-b3fb-4cf8-9555-7a40a13b4706" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exercises/eCommerce/Articolo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exercises/eCommerce/Carrello.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exercises/eCommerce/Cliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exercises/eCommerce/Ecommerce.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exercises/eCommerce/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exercises/rettangolo/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exercises/rettangolo/Rettangolo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exercises/telefonia/Chiamata.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exercises/telefonia/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exercises/telefonia/SIM.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,14 +23,29 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="FormatOnSaveOptions">
     <option name="myRunOnSave" value="true" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "giannibussoletti"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/giannibussoletti/BACK-END-s1-g3-classi.git",
+    "accountId": "95111dd8-7301-4560-983a-f3ad97a80a78"
+  }
+}]]></component>
   <component name="OptimizeOnSaveOptions">
     <option name="myRunOnSave" value="true" />
   </component>
@@ -26,6 +54,9 @@
   "fromUser": false
 }]]></component>
   <component name="ProjectId" id="3Ef6f1dOFZ2Ldqda1IocfXfsahz" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -33,10 +64,13 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Main.executor": "Run",
+    "Application.exercises.telefonia.Main.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -45,6 +79,40 @@
     "settings.editor.selected.configurable": "actions.on.save"
   }
 }]]></component>
+  <component name="RunManager" selected="Application.exercises.telefonia.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exercises.rettangolo.Main" />
+      <module name="s1-g3-classi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exercises.rettangolo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="exercises.telefonia.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exercises.telefonia.Main" />
+      <module name="s1-g3-classi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exercises.telefonia.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.exercises.telefonia.Main" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
