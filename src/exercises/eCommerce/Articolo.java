@@ -1,9 +1,9 @@
 package exercises.eCommerce;
 
 public class Articolo {
-    private String codiceArticolo;
-    private String descArticolo;
-    private double prezzo;
+    private final String codiceArticolo;
+    private final String descArticolo;
+    private final double prezzo;
     private int pezziDisp;
 
     public Articolo(String codiceArticolo, String descArticolo, double prezzo) {

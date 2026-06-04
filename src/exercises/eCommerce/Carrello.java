@@ -4,22 +4,21 @@ import java.text.DecimalFormat;
 import java.util.Arrays;
 
 public class Carrello {
-    private Cliente cliente;
-    private Articolo[] Carrelloarticoli;
-    private double totaleArticolo;
+    private final Cliente cliente;
+    private final Articolo[] Carrelloarticoli;
 
     public Carrello(Cliente cliente, Articolo[] Carrelloarticoli) {
         this.cliente = cliente;
         this.Carrelloarticoli = Carrelloarticoli;
     }
 
-    public void calcoloCarrello() {
+    public double calcoloCarrello() {
         double totale = 0;
         for (Articolo articolo : Carrelloarticoli) {
             totale += articolo.getPrezzo();
         }
         DecimalFormat df = new DecimalFormat("#.##");
-        System.out.println("Il totale del carrello è:" + df.format(totale));
+        return Double.parseDouble(df.format(totale));
 
     }
 
@@ -29,7 +28,7 @@ public class Carrello {
         return "Carrello{" +
                 "cliente=" + cliente +
                 ", Carrelloarticoli=" + Arrays.toString(Carrelloarticoli) +
-                ", totaleArticolo=" + totaleArticolo +
+                ", totaleArticolo=" + calcoloCarrello() +
                 '}';
     }
 }

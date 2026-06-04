@@ -3,10 +3,10 @@ package exercises.eCommerce;
 import java.util.Date;
 
 public class Cliente {
-    private String codiceCliente;
-    private String nameSurname;
-    private String email;
-    private Date dataIscrizione;
+    private final String codiceCliente;
+    private final String nameSurname;
+    private final String email;
+    private final Date dataIscrizione;
 
     public Cliente(String codiceCliente, String nameSurname, String email, Date dataIscrizione) {
         this.codiceCliente = codiceCliente;
