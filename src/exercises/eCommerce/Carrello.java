@@ -12,12 +12,13 @@ public class Carrello {
         this.Carrelloarticoli = Carrelloarticoli;
     }
 
-    public double calcoloCarrello() {
+    public void calcoloCarrello() {
         double totale = 0;
         for (Articolo articolo : Carrelloarticoli) {
             totale += articolo.prezzo();
         }
-        return totale;
+        System.out.println("Il totale del carrello è:" + totale);
+
     }
 
 

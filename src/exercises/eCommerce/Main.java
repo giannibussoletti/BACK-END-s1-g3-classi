@@ -16,6 +16,8 @@ public class Main {
         carrelloArt[2] = new Articolo("4053830", "Ottimo per cucinare", 220.34);
 
 
-        Carrello carrelloTot = new Carrello(cliente01, carrelloArt);
+        Carrello carrello01 = new Carrello(cliente01, carrelloArt);
+
+        carrello01.calcoloCarrello();
     }
 }

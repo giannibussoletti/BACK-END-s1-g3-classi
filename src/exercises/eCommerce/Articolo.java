@@ -23,8 +23,8 @@ public class Articolo {
                 ", pezziDisp=" + pezziDisp +
                 '}';
     }
-
-    public double getPrezzo() {
-        return prezzo;
+    
+    public double prezzo() {
+        return this.prezzo; // Usa 'return' per restituire il valore numerico
     }
 }
