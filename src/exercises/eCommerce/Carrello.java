@@ -1,5 +1,6 @@
 package exercises.eCommerce;
 
+import java.text.DecimalFormat;
 import java.util.Arrays;
 
 public class Carrello {
@@ -17,7 +18,8 @@ public class Carrello {
         for (Articolo articolo : Carrelloarticoli) {
             totale += articolo.prezzo();
         }
-        System.out.println("Il totale del carrello è:" + totale);
+        DecimalFormat df = new DecimalFormat("#.##");
+        System.out.println("Il totale del carrello è:" + df.format(totale));
 
     }
 
